@@ -1,0 +1,211 @@
+body, li, ul, header,span,div {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body {
+    width: auto;
+    height: auto;
+
+}
+
+#photo1 {
+    border-radius: 50%;
+    border: 3px rgba(95, 158, 160, 0.5) dashed;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+
+#img_1 {
+    position: absolute;
+    left: 100px;
+    top: 130px;
+}
+
+
+#kuang {
+
+    border: rgba(0, 0, 0, 0.5) solid 1px;
+    height: 390px;
+    width: 335px;
+    margin-top: 100px;
+    margin-left: 850px;
+    border-radius: 5px;
+    /*background-color: #f8f8ed;*/
+    /*box-shadow: 10px 10px 5px #500606;*/
+}
+
+
+#kuang1 {
+    border-bottom: 1px rgba(0, 0, 0, 0.43) solid;
+    height: 65px;
+    width: 334px;
+
+}
+
+
+#kuang_span {
+    margin-left: 90px;
+    color: rgba(60, 19, 6, 0.82);
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top: 25px;
+
+}
+
+
+input {
+    outline-color: rgba(50, 40, 40, 0.68);
+}
+
+#input1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+    height: 35px;
+    width: 235px;
+    font-size: 15px;
+    border: rgba(0, 0, 0, 0.46) solid 0.2px;
+
+}
+
+
+#input2 {
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 5px;
+    height: 35px;
+    width: 235px;
+    font-size: 15px;
+    border: rgba(0, 0, 0, 0.46) solid 0.2px;
+}
+
+
+#login {
+    height: 35px;
+    font-size: 18px;
+    background-color: #3cb0fd;
+    width: 235px;
+    border: none;
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 3px;
+}
+
+
+#forget_pwd {
+    font-size: 14px;
+    color: #2980c8;
+    position: absolute;
+    left: 880px;
+    top: 460px;
+    text-decoration: none;
+}
+
+.forget_pwd {
+
+
+}
+
+#new_id {
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    left: 1100px;
+    top: 460px;
+    color: #2980c8;
+
+}
+
+
+.new_id {
+    display: none;
+    border: 1px black;
+    width: 380px;
+    height: 480px;
+    position: absolute;
+    left: 520px;
+    bottom: 50px;
+    background-color: #f3f7f3;
+    box-shadow: 8px 8px 50px 0 rgba(0, 0, 0, 0.27);
+
+}
+
+#register_p {
+    font-size: 20px;
+    margin-top: 28px;
+    margin-left: 25px;
+    cursor: pointer;
+
+
+}
+
+#register_user_id {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 45px;
+    width: 280px;
+    height: 25px;
+
+}
+
+#register_user_email {
+    margin-bottom: 30px;
+    margin-left: 45px;
+    width: 280px;
+    height: 25px;
+
+}
+
+#register_user_pwd {
+    margin-bottom: 30px;
+    margin-left: 45px;
+    width: 280px;
+    height: 25px;
+}
+
+#register_span {
+    position: absolute;
+    left: 45px;
+    top: 110px;
+}
+
+#register_span1 {
+    position: absolute;
+    left: 45px;
+    top: 176px;
+
+}
+
+#register_span2 {
+    position: absolute;
+    left: 45px;
+    top: 238px;
+
+}
+
+
+#register_button {
+    width: 280px;
+    height: 35px;
+    position: absolute;
+    left: 48px;
+    bottom: 90px;
+    color: white;
+    background-color: #2980c8;
+    border: none;
+
+}
+
+#p1 {
+    position: fixed;
+    top: 595px;
+    left: 950px;
+    color: #888888;
+    font-size: 5px;
+}

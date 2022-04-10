@@ -1,0 +1,22 @@
+body, li, ul, header,span,div {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display:block;
+}
+frameset{
+    border: 0;
+}
+#left_kuang{
+
+    height: 615px;
+    width: 16%;
+    border: 1px solid black;
+}
+#right_kuang{
+    height:615px;
+    width:  84%;
+    border-left: 1px solid black;
+    position: absolute;
+    top: 0px;
+    right: -2px;}

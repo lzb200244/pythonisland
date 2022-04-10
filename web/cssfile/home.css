@@ -1,0 +1,418 @@
+body li ul header span div a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+
+
+}
+
+
+
+
+
+
+.nav1 {
+    position: relative; /* 设置相对定位 */
+    display: inline-block; /* 让元素具有块级元素和行内元素的特性,即将块级元素转化为内联元素 */
+}
+
+.nav2 {
+    display: none; /* 将某元素隐藏起来 */
+    position: absolute; /* 绝对定位 */
+    background-color: #ffffff;
+    min-width: 100px; /* 最小宽度 */
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ul li {
+    list-style: none;
+    float: left;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#photo {
+    background: white;
+    width: 905px;
+    height: 1280px;
+    position: sticky;
+    top: 10px;
+    display: block;
+}
+
+
+.header_a {
+    text-decoration: none;
+    color: rgba(7, 5, 0, 0.79);
+
+}
+
+.header_a:hover {
+    font-size: 20px;
+    color: #006bb3;
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+
+
+/*下拉栏*/
+
+.nav2 a {
+    color: rgba(51, 54, 35, 0.9);
+    padding: 8px 12px;
+    display: block; /* 将a标签设置为块级标签 */
+    box-shadow: rgba(250, 178, 184, 0.53) 0 0 15px;
+    text-decoration: none;
+}
+
+.nav2 a:hover {
+    background-color: rgba(116, 108, 109, 0.38)
+}
+
+/* 鼠标悬浮时的颜色 */
+
+
+
+.nav1:hover .nav2 {
+    display: block;
+    animation-delay: 4s;
+}
+/*当鼠标悬浮时会有下拉连表*/
+
+
+
+
+/* 鼠标悬浮在元素上时,变为块级标签 */
+.nav1:hover, li:hover {
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+    margin-top: 20px;
+    position: absolute;
+    left: 75px;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/*??????????*/
+
+
+input {
+    background: none;
+    outline: none;
+    border: solid rgba(0, 0, 0, 0.52) 1px;
+}
+
+input:hover {
+    border: 2px black solid;
+
+}
+
+
+
+
+/*???input?????*/
+
+/*#left_div {*/
+/*    background-color: white;*/
+/*    width: 312px;*/
+/*    height: 50px;*/
+/*    margin-left: -312px;*/
+/*    z-index: 100;*/
+/*    !*border-bottom: rgba(217, 206, 220, 0.78) 2px solid;*!*/
+/*    box-shadow: rgba(0, 0, 0, 0.24) 0 0 50px;*/
+
+
+/*}*/
+
+
+
+
+#header {
+    width: 1350px;
+    height: 55px;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+    /*border-bottom: rgba(217, 206, 220, 0.78) 2px solid;*/
+    box-shadow: rgba(0, 0, 0, 0.24) 0 0 20px;
+    display: block;
+}
+
+/*???????λ??С*/
+
+#photo1 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #cccccc;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    display: block;
+    margin-top: 5px;
+    background-color: white;
+}
+
+/*???????λ*/
+
+
+/*???????λ*/
+#first {
+    position: absolute;
+    left: 430px;
+    top: 20px;
+}
+
+#second {
+    position: absolute;
+    left: 580px;
+    top: 20px;
+
+}
+
+#thrid {
+    position: absolute;
+    left: 730px;
+    top: 20px;
+}
+
+
+#forth {
+    position: absolute;
+    left: 880px;
+    top: 20px;
+}
+
+
+#fifth {
+    width: 250px;
+    height: 38px;
+    margin: 30px auto;
+    font-size: 14px;
+    solid-color: #cccccc;
+    position: absolute;
+    top: -22px;
+    left: 1010px;
+    border-radius: 15px;
+    display: block;
+    vertical-align: middle;
+
+}
+
+#fifth:hover {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 0 15px;
+
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*???li??????*/
+
+
+#desc {
+    position: absolute;
+    left: 65px;
+    top: 190px;
+    font-size: 80px;
+}
+
+/*??????λ*/
+
+
+#kuang1 {
+    border: 5px rgba(120, 121, 229, 0.62) dashed;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 450px;
+    height: 400px;
+    position: relative;
+    left: 750px;
+    top: 150px;
+    z-index: 1;
+    display: block;
+
+
+}
+
+/*????λ*/
+#Kuang1_img {
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    box-shadow: 5px 24px 74px 13px #888888;
+    height: 350px;
+    width: 350px;
+    z-index: 2;
+
+}
+
+/*??????????*/
+
+.return_top {
+    position: fixed;
+    left: 1250px;
+    top: 550px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #75CDF9;
+    padding: 2px;
+    display: block;
+
+
+}
+
+#a_top {
+
+    margin-left: 11px;
+
+
+}
+
+/*???????*/
+
+
+.btn {
+    position: absolute;
+    left: 80px;
+    top: 530px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: rgb(0, 85, 255);
+    display: block;
+
+}
+
+
+span {
+    cursor: pointer;
+
+}
+
+span:hover {
+    font-weight: bolder;
+}
+
+.a_1 {
+    color: white;
+    text-decoration: none;
+}
+
+#a_color:hover {
+    color: white;
+}
+
+#a_color {
+    color: blue;
+}
+
+/*?????????*/
+
+
+.btn2 {
+    position: absolute;
+    left: 269px;
+    top: 530px;
+    width: 120px;
+    height: 40px;
+    border: 1px blue solid;
+    border-radius: 2px;
+    color: blue;
+    z-index: 1;
+
+    background: #e8e8e8;
+    font-weight: 520;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.btn2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 1px;
+    background-color: rgb(0, 85, 255);
+    z-index: -1;
+    /*??????????????????????*/
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 350ms;
+
+}
+
+.btn2:hover {
+    color: #e8e8e8;
+}
+
+.btn2:hover::before {
+    width: 100%;
+}
+
+/*?????????????*/
+#p1 {
+    position: fixed;
+    top: 595px;
+    left: 950px;
+    color: #888888;
+    font-size: 5px;
+}
+
+#about_our {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    z-index: 1000;
+    background-image: none;
+    width: 411px;
+    height: 262px;
+    filter: blur(1px);
+    display: none;
+
+}
+
+

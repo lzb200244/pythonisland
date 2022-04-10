@@ -1,0 +1,66 @@
+﻿body, li, ul, header,span,div ,a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+h1 {
+
+    margin: 0 0 0 0;
+}
+
+li {
+    padding: 0 10px;
+
+}
+
+.img_div {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+
+    margin: 5px 0 2px 0;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    padding: 10px;
+    height: 230px;
+    width: 280px;
+    border: none;
+    float: left;
+    margin: 22px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 0 15px;
+}
+ul:hover{
+    background-color: rgba(226, 239, 190, 0.36);
+    transition: all 350ms;
+
+
+}
+
+
+#right_div {
+    margin: 160px 20px 20px 20px;
+    display:block;
+}
+
+p {
+    line-height: 20px;
+    width: 255px;
+    height: 20px;
+    font-size: 17px;
+    color: #424141;
+    float: right;
+
+
+}

@@ -1,0 +1,130 @@
+body, li, ul, header,span,div {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+#photo1 {
+    border-radius: 50%;
+    border: 3px cadetblue dashed;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+
+
+}
+body{
+    background-color: #edfef6;
+
+}
+
+/*滑动栏修改样式*/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 20px;
+    background-color: #bbbbbb;
+    -webkit-border-radius: 4px;
+    outline: 1px solid #ffffff;
+    ouline-offset: -2px;
+    border: 8px solid #fee2e9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    height: 20px;
+    background-color: #999999;
+    -webkit-border-radius: 4px;
+}
+
+/*::-webkit-scrollbar-thumb:horizontal {*/
+/*    width: 50px;*/
+/*    background-color: #bbbbbb;*/
+/*    -webkit-border-radius: 4px;*/
+/*    outline: 0px solid #ffffff;*/
+/*    ouline-offset: -2px;*/
+/*    border: 2px solid #ffffff;*/
+/*}*/
+
+
+#left_div {
+    margin-top: 150px;
+    display:block;
+}
+
+
+
+
+
+button {
+    width: 170px;
+    height: 40px;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+
+
+}
+
+#button_1:hover {
+    background-color: rgb(52, 138, 230);
+    color: white;
+
+}
+
+#button_2:hover {
+    background-color: rgba(52, 138, 230, 0.95);
+    color: white;
+
+}
+
+#button_3 button_4:hover {
+    background-color: rgba(52, 138, 230, 0.85);
+    color: white;
+
+}
+
+#button_4:hover {
+    background-color: rgba(52, 138, 230, 0.75);
+    color: white;
+
+}
+
+#button_5:hover {
+    background-color: rgba(52, 138, 230, 0.65);
+    color: white;
+
+}
+
+#button_6:hover {
+    background-color: rgba(52, 138, 230, 0.55);
+    color: white;
+
+}
+
+#button_7:hover {
+    background-color: rgba(52, 138, 230, 0.45);
+    color: white;
+
+}
+
+
+
+#button_8:hover{
+    background-color: rgba(52, 138, 230, 0.38);
+    color: white;
+}
+#button_9:hover{
+    background-color: rgba(52, 138, 230, 0.32);
+    color: white;
+}
+#button_10:hover{
+    background-color: rgba(52, 138, 230, 0.32);
+    color: white;
+}

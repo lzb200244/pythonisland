@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<link rel="shortcut icon" href="photo/logo.png" type="image/x-icon">
+	<title>login</title>
+</head>
+<script type="text/javascript">
+    function open_register() {
+        document.getElementById("register_open").style.display = "block";
+    }
+
+    function close_register() {
+        document.getElementById("register_open").style.display = "none";
+
+    }
+
+
+</script>
+<link rel="stylesheet" type="text/css" href="cssfile/login.css">
+<body>
+
+<!--返回home的图片按钮-->
+<a href="index.html" target="_blank"><img src="photo/headphoto.jpg" id="photo1" target="_blank"></a>
+
+<!--左边图片-->
+<img src="photo/loginphoto.png" id="img_1">
+
+<!--用户操作界面-->
+<div id="kuang">
+	<!--	上框样式-->
+	<div id="kuang1">
+		<span id="kuang_span">CodePorter</span>
+	</div>
+	<!--	表单提取-->
+	<form action="index.html">
+
+		<input type="text" name="id" placeholder="请输入账号" id="input1">
+
+		<input type="password" name="pwd" placeholder="请输入密码" id="input2">
+
+		<input type="submit" name="login_in" value="授权登入" id="login">
+
+	</form>
+
+	<a href="#" id="forget_pwd">忘记密码?</a>
+	<a href="#" id="new_id" onclick="open_register()">注册账户</a>
+</div>
+<!--忘记密码-->
+<div class="forget_pwd">
+
+</div>
+
+
+<!--注册账号-->
+<div class="new_id" id="register_open">
+	<p id="register_p" onclick="close_register()">← 返回</p>
+	<div>
+		<form METHOD="post" action="index.html">
+			<span id="register_span">名字</span><br/>
+			<input type="text" name="user_id" id="register_user_id"><br/>
+			<span id="register_span1">邮箱</span>
+			<input type="email" name="user_email" id="register_user_email"><br/>
+			<span id="register_span2">密码</span>
+			<input type="password" name="user_pwd" id="register_user_pwd"><br/>
+			<button type="submit" id="register_button">注册</button>
+		</form>
+	</div>
+</div>
+
+</body>
+<p id="p1">
+	声明:此网站用于学习,分享信息等.
+	如有侵权请联系QQ:2632141215
+</p>
+</html>
