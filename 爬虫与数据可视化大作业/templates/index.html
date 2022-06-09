@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.3.2/echarts.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+<style>
+    body{
+    width: 800px;height:auto;
+    position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+    }
+
+
+
+</style>
+<body>
+
+<ul class="nav nav-tabs nav-justified">
+    <li role="presentation" class="active"><a href="http://127.0.0.1:5000">饼图</a></li>
+    <li role="presentation"><a href="http://127.0.0.1:5000/home">柱图</a></li>
+    <li role="presentation"><a href="http://127.0.0.1:5000/排序">排序</a></li>
+</ul>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div id="main" style="width: auto;height:500px;"></div>
+    </div>
+</div>
+
+
+<script>
+
+    var chartDom = document.getElementById('main');
+    var myChart = echarts.init(chartDom);
+    var option;
+
+
+   option = {
+  legend: {
+    top: 'bottom'
+  },
+  toolbox: {
+    show: true,
+    feature: {
+      mark: { show: true },
+      dataView: { show: true, readOnly: false },
+      restore: { show: true },
+      saveAsImage: { show: true }
+    }
+  },
+  series: [
+    {
+      name: 'Nightingale Chart',
+      type: 'pie',
+      radius: [50, 250],
+      center: ['50%', '50%'],
+      roseType: 'area',
+      itemStyle: {
+        borderRadius: 8
+
+      },
+      data: {{data | tojson}}
+    }
+  ]
+};
+    option && myChart.setOption(option);
+
+<!--
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
